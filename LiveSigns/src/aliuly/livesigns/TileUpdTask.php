@@ -5,7 +5,7 @@ use pocketmine\scheduler\PluginTask;
 use pocketmine\plugin\Plugin;
 use pocketmine\tile\Sign;
 use pocketmine\network\protocol\TileEntityDataPacket;
-use pocketmine\nbt\NBT;
+use pocketmine\nbt\NBTTag;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\StringTag;
 
