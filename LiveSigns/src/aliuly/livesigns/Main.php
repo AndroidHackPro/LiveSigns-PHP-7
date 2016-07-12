@@ -18,7 +18,7 @@ use aliuly\livesigns\common\BasicPlugin;
 use aliuly\livesigns\common\BasicHelp;
 use aliuly\livesigns\common\mc;
 
-class Main extends BasicPlugin implements CommandExecutor {
+class Main extends PluginBase implements Listener {
 	protected $texts;			// trigger texts
 	protected $fetcher;		// async task retriever
 	protected $fetch_redo;	// Re-do a fetch
